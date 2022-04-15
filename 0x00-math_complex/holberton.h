@@ -1,6 +1,6 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
-#include <stdio.>
+#include <stdio.h>
 
 /**
 * struct complex
@@ -8,12 +8,12 @@
 * @c_im: imaginary part of a complex
 */
 
-typedef struct comple_x
+typedef struct complex
 {
-  double float c_re;
-  double float c_im;
+  double re;
+  double im;
 }
-comp_lex;
+complex;
 
 void display_complex_number(complex c);
 complex conjugate(complex c);
