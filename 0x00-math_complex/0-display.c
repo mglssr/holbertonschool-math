@@ -6,5 +6,5 @@
 */
 void display_complex_number(complex c)
 {
-	printf("%f + %fi\n", c.re, c.im);
+	printf("%1.f + %1.fi\n", c.re, c.im);
 }
