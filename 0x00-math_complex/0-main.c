@@ -11,8 +11,8 @@ int main(void)
 {
     complex c1;
 
-    c1.re = 1;
-    c1.im = 2;
+    c1.re = -15;
+    c1.im = -2.2121;
     display_complex_number(c1);
     c1.re = 1;
     c1.im = 0;
