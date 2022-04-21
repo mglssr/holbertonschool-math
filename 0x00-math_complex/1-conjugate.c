@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
-* complex conjugate(complex c)
+* conjugate - function that returns the conjugate of a given complex
 * @c: complex number
 * Return: complex conjugate
 */
