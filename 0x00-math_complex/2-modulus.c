@@ -1,5 +1,5 @@
 #include "holberton.h"
-
+#include <math.h>
 /**
 * modulus - function that calculates the modulus of a given complex
 * @c: complex number
