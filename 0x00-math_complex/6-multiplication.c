@@ -17,5 +17,6 @@ void multiplication(complex c1, complex c2, complex *c3)
 	b_1 = c1.im * c2.re;
 
 	(*c3).im = a_1 + b_0;
-	(*c3).re = a_0 - b_1;
+	b_1 *= -1;
+	(*c3).re = a_0 + b_1;
 }
