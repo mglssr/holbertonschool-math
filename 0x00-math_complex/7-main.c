@@ -18,4 +18,6 @@ int main(void)
     display_complex_number(c2);
     division(c1,c2,&c3);
     display_complex_number(c3);
+
+return (0);
 }
