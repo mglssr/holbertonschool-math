@@ -10,16 +10,16 @@
 * Return: approximation of the integral
 */
 
-double rectangle_method(double a, double b, int steps )
+double rectangle_method(double a, double b, int steps)
 {
-	double integral = 0, base, sum, xi; 
+	double integral = 0, base, sum, xi;
 	int i = 0;
 
-	while(i < steps)
+	while (i < steps)
 	{
-		base = (b - a)/steps;
+		base = (b - a) / steps;
 		xi = a + (i * base);
-		sum = 1/(1 + ((xi) * (xi))) * base;
+		sum = 1 / (1 + ((xi) * (xi))) * base;
 		integral = integral + sum;
 		i++;
 	}
