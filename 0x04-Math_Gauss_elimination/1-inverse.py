@@ -21,4 +21,4 @@ if __name__ == "__main__":
     print("The matrix A:\n", A)
     print("The inverse of the matrix A:\n", inverse(A))
     print("The identity matrix(The matrix A x The inverse of
-                               the matrix A): \n", A @ inversei(A))
+                               the matrix A): \n", A @ inverse(A))
